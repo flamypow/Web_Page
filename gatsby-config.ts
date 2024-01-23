@@ -16,6 +16,8 @@ const config: GatsbyConfig = {
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@flamypow`,
+    location: 'Canada',
+    name: 'William',
   },
   trailingSlash: `always`,
   plugins: [
