@@ -16,15 +16,17 @@ const config: GatsbyConfig = {
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@flamypow`,
-    location: 'Canada',
-    name: 'William',
+
   },
   trailingSlash: `always`,
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        location: 'Canada',
+        name: 'William',
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
