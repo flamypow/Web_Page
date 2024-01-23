@@ -1,19 +1,8 @@
 import React from "react"
 
-export default function body({ name, bio, avatar, twitterUrl, githubUrl }) {
+const Body = () => {
     return (
-        <MediaObject>
-            <Avatar {...avatar} />
-            <div>
-                <h3>{name}</h3>
-                <p>{bio}</p>
-                <a href={twitterUrl}>
-                    <Icon name="twitter" />
-                </a>
-                <a href={githubUrl}>
-                    <Icon name="github" />
-                </a>
-            </div>
-        </MediaObject>
+        <h1>Hi, welcome to my site!</h1>
     )
 }
+export default Body
