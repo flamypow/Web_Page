@@ -9,13 +9,13 @@ const config: GatsbyConfig = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emilia-core/gatsby-config.mjs
     siteTitle: `Emilia`,
-    siteTitleAlt: `Gatsby Starter Portfolio`,
-    siteHeadline: `Gatsby Theme from @lekoarts`,
+    siteTitleAlt: `flamypow_port_1801`,
+    siteHeadline: `flamypow_18008`,
     siteUrl: `https://melodious-flan-007a54.netlify.app/`,
-    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.`,
+    siteDescription: `Portfolio Under Construction.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@flamypow`,
   },
   trailingSlash: `always`,
   plugins: [
