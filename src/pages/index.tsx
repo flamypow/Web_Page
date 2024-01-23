@@ -6,7 +6,7 @@ import Header from "@lekoarts/gatsby-theme-emilia/src/components/header"
 import Layout from "@lekoarts/gatsby-theme-emilia/src/components/layout"
 import Seo from "@lekoarts/gatsby-theme-emilia/src/components/seo"
 
-const NotFound = (_props: PageProps) => (
+const IndexPage = (_props: PageProps) => (
     <Layout>
         <Header />
         <Container>
@@ -22,6 +22,6 @@ const NotFound = (_props: PageProps) => (
     </Layout>
 )
 
-export default NotFound
+export default IndexPage
 
-export const Head: HeadFC = () => <Seo title="404 - Not Found" />
+export const Head: HeadFC = () => <Seo title="Testing 1800001" />
