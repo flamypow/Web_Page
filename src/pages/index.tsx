@@ -8,7 +8,7 @@ import Seo from "@lekoarts/gatsby-theme-emilia/src/components/seo"
 
 const IndexPage = (_props: PageProps) => (
     <Layout>
-        <Header />
+
         <Container>
             <Themed.p>
                 Oh, no!
